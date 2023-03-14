@@ -35,10 +35,10 @@ dependencies {
             "io.qameta.allure:allure-rest-assured:$allureVersion",
             "com.fasterxml.jackson.core:jackson-databind:2.14.2",
             "org.assertj:assertj-core:3.24.2",
-            "io.qameta.allure:allure-selenide:$allureVersion"
-    )
-
-
+            "io.qameta.allure:allure-selenide:$allureVersion")
+    runtimeOnly(
+            "org.junit.jupiter:junit-jupiter:5.8.2",
+            "org.slf4j:slf4j-simple:1.7.29",)
 }
 
 test {
